@@ -1,0 +1,65 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>form page</title>
+     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+     <link rel="stylesheet" href="css/style.css">
+ </head>
+ <body>
+     <div class="container">
+         <h1 class="brand">
+            <span>Form</span> Web Design
+         </h1>
+         <div class="wrapper">
+             <div class="company-info">
+                 <h3>Web Design</h3> 
+                 <ul>
+                     <li><i class= " fa fa-road"></i>Mumbai </li>
+                     <li><i class= " fa fa-phone"></i>76897654</li>
+                     <li><i class= " fa fa-envelope"></i>web7@yahoo.com</li>
+                 </ul>
+             </div>
+             <div class="contact">
+                 <h3>Email us</h3>
+                 <div class="alert">your message has been sent</div>
+                 <form id="contactForm">
+                     <p>
+                         <label >Name</label><br>
+                         <input type="text" name="name" id="name">
+                     </p>
+                     <p>
+                        <label >phone number</label><br>
+                        <input type="text" name="phone"id="phone" >
+                    </p>
+                    <p>
+                        <label >company Name</label><br>
+                        <input type="text" name="company name"id="company" >
+                    </p>
+                    <p>
+                        <label >Email</label><br>
+                        <input type="text" name="email" id="email">
+                    </p>
+                    <p class="full">
+                        <label  >Message</label><br>
+                        <textarea name="message"  cols="50" rows="3" id="message"></textarea>
+                    </p>
+                    <p class="full">
+                        <br>
+                        <button type="submit">
+                            submit
+                        </button>
+                    </p>
+                 </form>
+             </div>
+         </div>
+     </div>
+     <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-app.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
+     
+
+     <script src="main.js"></script>
+ </body>
+ </html>
